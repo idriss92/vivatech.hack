@@ -1,5 +1,20 @@
 <div>
-    <div *ngFor="let dep of departementsList">
-        <div class="col-md-12">{{ dep }}</div>
+    <div class="col-md-12">
+
+      <div>
+      <div style="display: block">
+        <canvas baseChart
+                [datasets]="barChartData"
+                [labels]="barChartLabels"
+                [options]="barChartOptions"
+                [legend]="barChartLegend"
+                [chartType]="barChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+      </div>
+    </div>
+      
+
+
     </div>
 </div>

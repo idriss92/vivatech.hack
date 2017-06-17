@@ -8,7 +8,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { GlobalAppinessComponent } from './global-appiness/global-appiness.component';
-import { DepartementComponent } from './departement/departement-main.component';
+import { LineChartDemoComponent } from './departement/departement-main.component';
 import { GeographyComponent } from './geography/geography.component';
 import { BuildingComponent } from './bulding/building.component';
 import { EmployeeComponent } from './employee/employee.component';
@@ -27,6 +27,7 @@ import { CognitiveApiService } from "app/services/cognitive-api.service";
 import { HeroBannerComponent } from './directives/hero-banner.component';
 import { OutputSectionComponent } from './directives/output-section.component';
 import { ApiDetailsHeaderComponent } from './directives/api-details-header.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -36,13 +37,14 @@ import { ApiDetailsHeaderComponent } from './directives/api-details-header.compo
     HeroBannerComponent,
     OutputSectionComponent,
     ApiDetailsHeaderComponent,
-    DepartementComponent,
+//    DepartementComponent,
     GlobalAppinessComponent,
     GeographyComponent,
     BuildingComponent,
     EmployeeComponent,
     DialogComponent,
-    DialogComponent
+    DialogComponent,
+    LineChartDemoComponent
   ],
   imports: [
     BrowserModule,
@@ -50,6 +52,7 @@ import { ApiDetailsHeaderComponent } from './directives/api-details-header.compo
     HttpModule,
     BrowserAnimationsModule,
     ng2Bootstrap.Ng2BootstrapModule,
+    ChartsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDxYxkrm_Ce4vB1anAC5aJX-wBcmxbXxGc'
     })
