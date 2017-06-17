@@ -15,7 +15,6 @@
                     Criticity
                 </th>
                 <th>Actions 1</th>
-                                <th>Actions 2</th>
                 </tr>
             </thead>
             <tbody >
@@ -32,25 +31,14 @@
                 <td class="col-md-3">
                     {{ employee.criticity }}
                 </td>
-                <td class="col-md-1">
+                <td class="col-md-2">
                     <button (click)="showDialog = !showDialog" class="btn">Open</button>
 
                     <app-dialog [(visible)]="showDialog">
-                    <h1>Hello World</h1>
-                    <button (click)="showDialog = !showDialog" class="btn">Close</button>
-                    </app-dialog>
-                    <!--<button (click)="showDialog = !showDialog" class="btn btn-primary">Actions 1</button>-->
-                </td>
-                <td class="col-md-1">
-                    <!--<button (click)="showDialog = !showDialog" class="btn btn-primary">Actions 2</button>-->
-                    <button (click)="showDialog = !showDialog" class="btn">Open</button>
-
-                    <app-dialog [(visible)]="showDialog">
-                    <h1>Hello World</h1>
+                    <h1>Select to labour doctor</h1>
                     <button (click)="showDialog = !showDialog" class="btn">Close</button>
                     </app-dialog>
                 </td>
-
                 </tr>
             </tbody>
         </table>
