@@ -10,9 +10,9 @@ import { IEmployee } from '../models/employee.model';
 })
 export class EmployeeComponent   {
     employeesList: IEmployee [];
-
+    showDialog = false;
     constructor() {
-        this.employeesList = new Array<IEmployee>()
+        this.employeesList = new Array<IEmployee>();
     }
 
     ngOnInit() {

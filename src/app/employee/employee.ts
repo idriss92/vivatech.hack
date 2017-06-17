@@ -2,7 +2,7 @@ const employees = [
     {
         "employee": {
             "id": 1,
-            "department": 10,
+            "department": 12,
             "city": "Paris",
             "recurring": "80",
             "criticity": "High"
@@ -68,7 +68,7 @@ const employees = [
     {
         "employee": {
             "id": 1,
-            "department": 10,
+            "department": 21,
             "city": "Paris",
             "recurring": "80",
             "criticity": "High"
@@ -90,7 +90,7 @@ const employees = [
     {
         "employee": {
             "id": 1,
-            "department": 10,
+            "department": 64,
             "city": "Paris",
             "recurring": "80",
             "criticity": "High"

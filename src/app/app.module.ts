@@ -1,5 +1,6 @@
 import { ContactDataService } from './services/contact-data.service';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -11,6 +12,7 @@ import { DepartementComponent } from './departement/departement-main.component';
 import { GeographyComponent } from './geography/geography.component';
 import { BuildingComponent } from './bulding/building.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { DialogComponent } from './dialog/dialog.component';
 import { EmotionDetectionComponent } from './emotion-detection/emotion-detection.component';
 import { EmotionDetectionVideoComponent } from './emotion-detection-video/emotion-detection-video.component';
 import 'rxjs/add/operator/toPromise';
@@ -38,12 +40,15 @@ import { ApiDetailsHeaderComponent } from './directives/api-details-header.compo
     GlobalAppinessComponent,
     GeographyComponent,
     BuildingComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    DialogComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    BrowserAnimationsModule,
     ng2Bootstrap.Ng2BootstrapModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDxYxkrm_Ce4vB1anAC5aJX-wBcmxbXxGc'

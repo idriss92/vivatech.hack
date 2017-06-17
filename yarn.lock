@@ -6,6 +6,12 @@
   version "1.0.0-beta.0"
   resolved "https://registry.yarnpkg.com/@agm/core/-/core-1.0.0-beta.0.tgz#5ca53f0efa321e1e24c7ba3a6be72f96bccf82a4"
 
+"@angular/animations@^4.2.3":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-4.2.3.tgz#686926a69d0c9c26a9bcad26cd6fbd0245bb6c1b"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/cli@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-1.0.1.tgz#95bc1e02c564ff2bddc7c6d975fdf355b47216cb"

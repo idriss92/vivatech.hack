@@ -1,34 +1,56 @@
-<div class="row">
-    <div class="col-md-6">
-        <div class="table table-condensed">
-            <div class="row">
-                <div class="col-md-3">
+
+        <table class="table table-hover">
+            <thead class="row">
+                <tr>
+                                    <th class="col-md-3">
                     Id (anonymized)
-                </div>
-                <div class="col-md-3">
+                </th>
+                <th class="col-md-3">
                     Recurring
-                </div>
-                <div class="col-md-3">
+                </th>
+                <th class="col-md-3">
                     Confidence rate
-                </div>
-                <div class="col-md-3">
+                </th>
+                <th class="col-md-3">
                     Criticity
-                </div>
-            </div>
-            <div class="row" *ngFor="let employee of employeesList">
-                <div class="col-md-3">
+                </th>
+                <th>Actions 1</th>
+                                <th>Actions 2</th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr *ngFor="let employee of employeesList">
+                <td class="col-md-1">
                     {{ employee.id }}
-                </div>
-                <div class="col-md-3">
+                </td>
+                <td class="col-md-3">
                     {{ employee.city }}
-                </div>
-                <div class="col-md-3">
+                </td>
+                <td class="col-md-3">
                     {{ employee.recurring }}
-                </div>
-                <div class="col-md-3">
+                </td>
+                <td class="col-md-3">
                     {{ employee.criticity }}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                </td>
+                <td class="col-md-1">
+                    <button (click)="showDialog = !showDialog" class="btn">Open</button>
+
+                    <app-dialog [(visible)]="showDialog">
+                    <h1>Hello World</h1>
+                    <button (click)="showDialog = !showDialog" class="btn">Close</button>
+                    </app-dialog>
+                    <!--<button (click)="showDialog = !showDialog" class="btn btn-primary">Actions 1</button>-->
+                </td>
+                <td class="col-md-1">
+                    <!--<button (click)="showDialog = !showDialog" class="btn btn-primary">Actions 2</button>-->
+                    <button (click)="showDialog = !showDialog" class="btn">Open</button>
+
+                    <app-dialog [(visible)]="showDialog">
+                    <h1>Hello World</h1>
+                    <button (click)="showDialog = !showDialog" class="btn">Close</button>
+                    </app-dialog>
+                </td>
+
+                </tr>
+            </tbody>
+        </table>
