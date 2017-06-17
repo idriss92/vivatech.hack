@@ -15,6 +15,7 @@ import { EmotionDetectionComponent } from './emotion-detection/emotion-detection
 import { EmotionDetectionVideoComponent } from './emotion-detection-video/emotion-detection-video.component';
 import 'rxjs/add/operator/toPromise';
 import * as $ from "jquery";
+import { AgmCoreModule } from '@agm/core';
 import  * as ng2Bootstrap from 'ng2-bootstrap';
 import { DataService } from "./services/data.service";
 import 'font-awesome/css/font-awesome.css';
@@ -43,7 +44,10 @@ import { ApiDetailsHeaderComponent } from './directives/api-details-header.compo
     BrowserModule,
     FormsModule,
     HttpModule,
-    ng2Bootstrap.Ng2BootstrapModule
+    ng2Bootstrap.Ng2BootstrapModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDxYxkrm_Ce4vB1anAC5aJX-wBcmxbXxGc'
+    })
   ],
   providers: [DataService,
               EmotionDataService,
