@@ -4,9 +4,8 @@ import { IDepartement } from '../models/departement-model';
 import employees from '../employee/employee';
 
 @Component({
-    selector: 'departement-main',
-    templateUrl: './departement-main.component.html',
-    styleUrls: ['./departement-main.component.css']
+  selector: 'departement-main',
+  templateUrl: './departement-main.component.html'
 })
 export class DepartementComponent   {
    public barChartOptions:any = {
