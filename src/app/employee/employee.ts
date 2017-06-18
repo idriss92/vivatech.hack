@@ -4,8 +4,8 @@ const employees = [
             "id": 1,
             "department": 12,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High", "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-01"
@@ -26,8 +26,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High", "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-02"
@@ -48,8 +48,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 45,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-03"
@@ -70,8 +70,8 @@ const employees = [
             "id": 1,
             "department": 21,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-04"
@@ -92,8 +92,8 @@ const employees = [
             "id": 1,
             "department": 64,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 34,
+            "criticity": "Low",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-05"
@@ -114,8 +114,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 10,
+            "criticity": "Low",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-06"
@@ -136,8 +136,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-07"
@@ -158,8 +158,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-08"
@@ -180,8 +180,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-09"
@@ -202,8 +202,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-10"
@@ -224,8 +224,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-11"
@@ -246,8 +246,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-12"
@@ -268,8 +268,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 40,
+            "criticity": "Low",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-13"
@@ -290,8 +290,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-14"
@@ -312,8 +312,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-15"
@@ -334,8 +334,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-16"
@@ -356,8 +356,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-17"
@@ -378,8 +378,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-18"
@@ -400,8 +400,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-19"
@@ -422,8 +422,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-20"
@@ -444,8 +444,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-21"
@@ -466,8 +466,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-22"
@@ -488,8 +488,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-23"
@@ -510,8 +510,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-24"
@@ -532,8 +532,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-25"
@@ -554,8 +554,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-26"
@@ -576,8 +576,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-27"
@@ -598,8 +598,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-28"
@@ -620,8 +620,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-29"
@@ -642,8 +642,8 @@ const employees = [
             "id": 1,
             "department": 10,
             "city": "Paris",
-            "recurring": "80",
-            "criticity": "High"
+            "recurring": 80,
+            "criticity": "High",             "advise": "You have to take care of your employee",
         },
         "date": {
             "day": "2017-05-30"

@@ -1,6 +1,8 @@
 export interface ICity {
-    name: any,
-    lat: any,
-    long: any
+    name: any;
+    lat: number;
+    long: number;
+    department: any;
+    message: any;
 }
 

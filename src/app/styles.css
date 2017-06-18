@@ -868,3 +868,26 @@ img.news-thumbnail {
 
 
 
+/* ADDITIONAL CLASSES */
+.separator{
+    height: 10px;
+    background-color: red;
+}
+.flat{
+    height: 400px;
+    background-color: #62bcda;
+}
+
+/* FOOTER */
+.footer{
+    float:left;
+    width:100%;
+    line-height: 60px;
+    bottom:0;
+    height:120px;
+    background-color:#222222;
+}
+.copyright{
+    text-align:center;
+    color:#FFF;
+}

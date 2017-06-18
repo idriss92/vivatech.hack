@@ -1,8 +1,9 @@
 <div>
-<!--<agm-map [latitude]="51.678418" [longitude]="7.809007" *ngFor="let city of citiesList">
-    <agm-marker [latitude]= {{ city.lat }} [longitude]= {{city.long}}></agm-marker> 
-</agm-map>-->
-<agm-map [latitude]="51.678418" [longitude]="7.809007">
-  <agm-marker [latitude]="51.678418" [longitude]="7.809007"></agm-marker>
+<agm-map [latitude]="lat" [longitude]="long" center="map.center"       [zoom]="zoom">
+    <agm-marker *ngFor="let city of citiesList; let i = index" [title]="city.name" (markerClick)="clickedMarker(city.name, city.message, i)"  [latitude]= "city.lat"  [longitude]= "city.long">
+        <agm-info-window>
+          <strong>{{ city.name }}</strong>
+        </agm-info-window>
+    </agm-marker> 
 </agm-map>
 </div>

@@ -1,8 +1,8 @@
 export interface IEmployee {
-    city: any,
-    department: any,
-    id: any,
-    recurring: any,
-    criticity: any
+    city: string;
+    department: number;
+    id: number;
+    recurring: number;
+    criticity: string;
 }
 

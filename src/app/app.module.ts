@@ -22,6 +22,7 @@ import  * as ng2Bootstrap from 'ng2-bootstrap';
 import { DataService } from "./services/data.service";
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import { ChartsModule } from 'ng2-charts';
 import { EmotionDataService } from "./services/emotion-data.service";
 import { CognitiveApiService } from "app/services/cognitive-api.service";
 import { HeroBannerComponent } from './directives/hero-banner.component';
@@ -50,6 +51,7 @@ import { ApiDetailsHeaderComponent } from './directives/api-details-header.compo
     HttpModule,
     BrowserAnimationsModule,
     ng2Bootstrap.Ng2BootstrapModule,
+    ChartsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDxYxkrm_Ce4vB1anAC5aJX-wBcmxbXxGc'
     })

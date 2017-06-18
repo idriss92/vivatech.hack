@@ -15,11 +15,24 @@ export class EmployeeComponent   {
         this.employeesList = new Array<IEmployee>();
     }
 
+
+
     ngOnInit() {
+
         employees.forEach(employee => {
-            console.log(employee.employee);
+            employee.employee.id = Math.floor(Math.random()*10000)+1;
+            employee.employee.recurring = (Math.floor(Math.random()*100)+1);
+            if(+(employee.employee.recurring) > 80){
+                employee.employee.criticity = "High";
+            }
+            else if(+(employee.employee.recurring) > 40 && +(employee.employee.recurring) <= 80 )
+               {
+                   employee.employee.criticity = "Medium";
+            }
+            else  {
+                 employee.employee.criticity = "Low" 
+            }
             this.employeesList.push(employee.employee);
         });
     }
-
 }

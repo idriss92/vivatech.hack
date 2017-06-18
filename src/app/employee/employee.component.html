@@ -1,5 +1,5 @@
 
-        <table class="table table-hover">
+        <table class="table table-hover" id="myEmployee">
             <thead class="row">
                 <tr>
                                     <th class="col-md-3">
@@ -18,7 +18,7 @@
                 </tr>
             </thead>
             <tbody >
-                <tr *ngFor="let employee of employeesList">
+                <tr class="update" *ngFor="let employee of employeesList" >
                 <td class="col-md-1">
                     {{ employee.id }}
                 </td>
@@ -32,11 +32,11 @@
                     {{ employee.criticity }}
                 </td>
                 <td class="col-md-2">
-                    <button (click)="showDialog = !showDialog" class="btn">Open</button>
+                    <button (click)="showDialog = !showDialog" class="btn">Send</button>
 
                     <app-dialog [(visible)]="showDialog">
-                    <h1>Select to labour doctor</h1>
-                    <button (click)="showDialog = !showDialog" class="btn">Close</button>
+                    <h1> Send to Doctor Labour </h1>
+                    <button (click)="showDialog = !showDialog" class="btn">OK</button>
                     </app-dialog>
                 </td>
                 </tr>
